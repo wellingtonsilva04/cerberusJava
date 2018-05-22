@@ -26,6 +26,7 @@ public class CerberusJava {
         int op = -1;
         Scanner entrada = new Scanner(System.in);
         while (op != 0) {
+            System.out.println("**** Cerberus ****");
             System.out.println("0- sair");
             System.out.println("1- Professor");
             System.out.println("2- Aluno");
@@ -65,7 +66,7 @@ public class CerberusJava {
         Scanner entrada = new Scanner(System.in);
         while (op
                 != 0) {
-            System.out.println("0- sair");
+            System.out.println("0- Voltar para o menu principal");
             System.out.println("1- Cadastrar Professor");
             System.out.println("2- Listar professores");
             System.out.println("3- Editar Professor");
@@ -112,22 +113,24 @@ public class CerberusJava {
     }
 
     public void listarProfessores() {
+        System.out.println("Ainda não implementado");
 
     }
 
     public void editarProfessor() {
+        System.out.println("Ainda não implementado");
 
     }
 
     public void removerProfessor() {
-
+        System.out.println("Ainda não implementado");
     }
 
     public void menuAluno() {
         int op = -1;
         Scanner entrada = new Scanner(System.in);
         while (op != 0) {
-            System.out.println("0- sair");
+            System.out.println("0- Voltar para o menu principal");
             System.out.println("1- Cadastrar Aluno");
             System.out.println("2- Listar Alunos");
             System.out.println("3- Editar Aluno");
@@ -178,14 +181,17 @@ public class CerberusJava {
     }
     
     public void listarAlunos(){
+        System.out.println("Ainda não implementado");
         
     }
 
     public void editarAluno() {
+        System.out.println("Ainda não implementado");
 
     }
 
     public void removerAluno() {
+        System.out.println("Ainda não implementado");
 
     }
 
@@ -193,7 +199,7 @@ public class CerberusJava {
         int op = -1;
         Scanner entrada = new Scanner(System.in);
         while (op != 0) {
-            System.out.println("0- sair");
+            System.out.println("0- Voltar para o menu principal");
             System.out.println("1- Cadastrar Sala");
             System.out.println("2- Listar Salas");
             System.out.println("3- Editar Sala");
@@ -227,21 +233,26 @@ public class CerberusJava {
     }
     //Métodos do menuSala
     public void cadastrarSala() {
+        System.out.println("Ainda não implementado");
 
     }
     
     public void listarSalas(){
+        System.out.println("Ainda não implementado");
         
     }
     
     public void editarSala(){
+        System.out.println("Ainda não implementado");
         
     }
 
     public void removerSala(){
+        System.out.println("Ainda não implementado");
         
     }
     public void emprestarChave() {
+        System.out.println("Ainda não implementado");
 
     }
 
